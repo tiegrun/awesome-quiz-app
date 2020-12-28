@@ -31,7 +31,7 @@ $secondary-color: black;
   button {
     margin-top: 1rem;
     background: lighten($secondary-color, 80);
-    // width: 120px;
+    color: $secondary-color;
   }
 
   button:hover {
