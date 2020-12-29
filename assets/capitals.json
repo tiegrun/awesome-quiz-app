@@ -1,0 +1,110 @@
+[
+  {
+    "label": "What is the capital of the USA?",
+    "choices": [
+      {
+        "value": "Washington D.C.",
+        "correct": true
+      },
+      {
+        "value": "New York",
+        "correct": false
+      },
+      {
+        "value": "Los Angeles",
+        "correct": false
+      },
+      {
+        "value": "Chicago",
+        "correct": false
+      }
+    ]
+  },
+
+  {
+    "label": "What is the capital of Germany?",
+    "choices": [
+      {
+        "value": "Hamburg",
+        "correct": false
+      },
+      {
+        "value": "Berlin",
+        "correct": true
+      },
+      {
+        "value": "Frankfurt",
+        "correct": false
+      },
+      {
+        "value": "Munich",
+        "correct": false
+      }
+    ]
+  },
+
+  {
+    "label": "What is the capital of Canada?",
+    "choices": [
+      {
+        "value": "Montreal",
+        "correct": false
+      },
+      {
+        "value": "Ottawa",
+        "correct": true
+      },
+      {
+        "value": "Toronto",
+        "correct": false
+      },
+      {
+        "value": "Vancouver",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the capital of Spain?",
+    "choices": [
+      {
+        "value": "Madrid",
+        "correct": true
+      },
+      {
+        "value": "Bilbao",
+        "correct": false
+      },
+      {
+        "value": "Seville",
+        "correct": false
+      },
+      {
+        "value": "Barcelona",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is the capital of Norway?",
+    "choices": [
+      {
+        "value": "Helsinki",
+        "correct": false
+      },
+      {
+        "value": "Oslo",
+        "correct": true
+      },
+      {
+        "value": "Stockholm",
+        "correct": false
+      },
+      {
+        "value": "Copenhagen",
+        "correct": false
+      }
+    ]
+  }
+
+]
