@@ -1,12 +1,17 @@
 <mat-card>
   <mat-card-title class="title">Results</mat-card-title>
-  <mat-card-content class="answer mat-app-background" *ngFor="let a of
+  <mat-card-content class="answer" *ngFor="let a of
     answers.values" [ngClass]="{correct: a.correct}">
     {{a.value}}
   </mat-card-content>
   <mat-card-actions>
-    <button mat-raised-button color="accent" class="btn btn-primary">
+
+    <!-- <button mat-raised-button color="accent" class="btn btn-primary">
       <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+    </button> -->
+
+    <button mat-raised-button color="accent" class="btn btn-primary"  routerLink="/welcome" class="btn btn-primary">Choose another quiz
     </button>
+
   </mat-card-actions>
 </mat-card>

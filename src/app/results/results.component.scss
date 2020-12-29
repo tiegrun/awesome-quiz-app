@@ -1,14 +1,8 @@
 $primary-color: orange;
 $secondary-color: black;
+$correct-color: green;
+$wrong-color: red;
 
-// .container {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: flex-start;
-//   align-items: center;
-//   background-color: $primary-color;
-//   height: 100vh;
-// }
 .title {
   font-size: 2.2rem;
 }
@@ -18,6 +12,7 @@ mat-card {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 6rem;
 }
 
 mat-card-title {
@@ -28,16 +23,19 @@ mat-card-title {
   border-radius: 2px;
 }
 
-button {
-  background: lighten($secondary-color, 80);
-}
-
 button:hover {
   background: lighten($secondary-color, 95);
   box-shadow: 4px 4px 10px 2px lighten($secondary-color, 10);
 }
 
-a {
-  text-decoration: none;
-  color: $secondary-color;
+.answer::after {
+  background: $wrong-color;
+  content: "wrong";
+  padding: 4px;
+}
+
+.correct::after {
+  background: $correct-color;
+  content: "correct";
+  padding: 4px;
 }

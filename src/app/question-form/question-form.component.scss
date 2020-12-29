@@ -1,4 +1,18 @@
 form {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
+  background: #424242;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 4px;
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .value {
+    padding: 0.5rem;
+  }
 }

@@ -4,7 +4,6 @@ $secondary-color: black;
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   background-color: $primary-color;
   height: 100vh;
@@ -27,20 +26,16 @@ $secondary-color: black;
     background: darken($primary-color, 10);
     padding: 1rem;
     border: 1px solid lighten($primary-color, 2);
-    border-radius: 2px;
+    border-radius: 4px;
   }
 
   button {
     background: lighten($secondary-color, 80);
+    color: $secondary-color;
   }
 
   button:hover {
     background: lighten($secondary-color, 95);
     box-shadow: 4px 4px 10px 2px lighten($secondary-color, 10);
-  }
-
-  a {
-    text-decoration: none;
-    color: $secondary-color;
   }
 }

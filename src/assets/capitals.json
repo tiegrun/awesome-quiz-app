@@ -1,107 +1,107 @@
 [
   {
-    "label": "What is 2 + 3?",
+    "label": "What is the capital of the USA?",
     "choices": [
       {
-        "value": "5",
+        "value": "Washington D.C.",
         "correct": true
       },
       {
-        "value": "15",
+        "value": "New York",
         "correct": false
       },
       {
-        "value": "3",
+        "value": "Los Angeles",
         "correct": false
       },
       {
-        "value": "4",
+        "value": "Chicago",
         "correct": false
       }
     ]
   },
 
   {
-    "label": "What is 3 - 9?",
+    "label": "What is the capital of Germany?",
     "choices": [
       {
-        "value": "3",
+        "value": "Hamburg",
         "correct": false
       },
       {
-        "value": "-6",
+        "value": "Berlin",
         "correct": true
       },
       {
-        "value": "6",
+        "value": "Frankfurt",
         "correct": false
       },
       {
-        "value": "0",
+        "value": "Munich",
         "correct": false
       }
     ]
   },
 
   {
-    "label": "What is 13 - 9?",
+    "label": "What is the capital of Canada?",
     "choices": [
       {
-        "value": "3",
+        "value": "Montreal",
         "correct": false
       },
       {
-        "value": "4",
+        "value": "Ottawa",
         "correct": true
       },
       {
-        "value": "2",
+        "value": "Toronto",
         "correct": false
       },
       {
-        "value": "21",
+        "value": "Vancouver",
         "correct": false
       }
     ]
   },
   {
-    "label": "What is 4 - 2 * 2?",
+    "label": "What is the capital of Spain?",
     "choices": [
       {
-        "value": "0",
+        "value": "Madrid",
         "correct": true
       },
       {
-        "value": "-5",
+        "value": "Bilbao",
         "correct": false
       },
       {
-        "value": "4",
+        "value": "Seville",
         "correct": false
       },
       {
-        "value": "1",
+        "value": "Barcelona",
         "correct": false
       }
     ]
   },
   {
-    "label": "What is 7 - 7 / 7?",
+    "label": "What is the capital of Norway?",
     "choices": [
       {
-        "value": "5",
+        "value": "Helsinki",
         "correct": false
       },
       {
-        "value": "6",
+        "value": "Oslo",
         "correct": true
       },
       {
-        "value": "1",
+        "value": "Stockholm",
         "correct": false
       },
       {
-        "value": "0",
+        "value": "Copenhagen",
         "correct": false
       }
     ]

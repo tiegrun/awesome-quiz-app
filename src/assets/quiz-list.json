@@ -10,5 +10,11 @@
     "name": "french",
     "description": "Questions about french",
     "fileName": "french.json"
+  },
+  {
+    "label": "Capitals",
+    "name": "capitals",
+    "description": "Questions about capitals",
+    "fileName": "capitals.json"
   }
 ]

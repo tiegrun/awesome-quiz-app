@@ -7,8 +7,11 @@
       <mat-card-title>{{q.label}}</mat-card-title>
       <mat-card-subtitle>{{q.description}}</mat-card-subtitle>
       <mat-card-actions>
-        <button  mat-raised-button>
+        <!-- <button type="button" mat-raised-button >
           <a routerLink="/{{q.name}}" >Select this quiz</a>
+        </button> -->
+        <button type="button" mat-raised-button routerLink="/{{q.name}}">
+          Select this quiz
         </button>
       </mat-card-actions>
     </mat-card>
